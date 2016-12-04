@@ -1,4 +1,7 @@
 $(function(){
+  // default behavior
+$(".screenshot-text").hide();
+
     $("#menu").children().each(function(index){
         console.log(this);
         $(this).on("click", function(evt){
@@ -6,4 +9,15 @@ $(function(){
             evt.preventDefault();
         });
     });
+
+    $(".screenshot").hover(
+      function(){
+          $(".screenshot-text").show();
+      },
+      function(){
+        $(".screenshot-text").hide();
+      }
+    );
+
+
 });

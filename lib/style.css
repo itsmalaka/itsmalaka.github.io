@@ -28,16 +28,30 @@ section article{
 }
 
 .portfolioImage{
-	width: 100%;
+	width: 75%;
+	min-width: 650px;
+	max-width: 1000px;
 }
 
 .screenshot {
-	max-width: 80%;
+	width: 100%;
+	text-align: center;
+	/*max-width: 80%;
 	min-width: 580px;
 	padding: 0px;
-	margin: auto;
+	margin: auto;*/
 }
 
+.screenshot-text{
+		top: -55px;
+	  position: relative;
+		height: 55px;
+		background-color: lightpink;
+		float: left;
+		clear: both;
+}
+
+/*
 .screenshot div {
 	display: inline;
 	position: relative;
@@ -46,7 +60,18 @@ section article{
 	color: white;
 	padding: 2px 20px;
 	float: left;
+}*/
+
+.controls {
+    float: left;
+    width: 100px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 10px;
+    height: 23px;
 }
+
 /********************
 *   Mobile Styles   *
 ********************/
