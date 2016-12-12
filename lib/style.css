@@ -27,28 +27,39 @@ section article{
 	padding: 5px 30px;
 }
 
-.portfolioImage{
+.screenshot-image{
+	width: 100%;
+}
+
+.panelContainer{
+	max-width: 80%;
+	min-width: 580p;
+	padding: 0px;
+	margin: auto;
+}
+
+.screenshot {
+	/*max-width: 80%;
+	min-width: 580p
+	padding: 0px;
+	margin: auto;*/
+
 	width: 75%;
 	min-width: 650px;
 	max-width: 1000px;
 }
 
-.screenshot {
-	width: 100%;
-	text-align: center;
-	/*max-width: 80%;
-	min-width: 580px;
-	padding: 0px;
-	margin: auto;*/
-}
-
-.screenshot-text{
-		top: -55px;
+.screenshot-description{
 	  position: relative;
 		height: 55px;
-		background-color: lightpink;
+		width: 100%;
+		background-color: rgba(61, 79, 93, 0.2);
 		float: left;
 		clear: both;
+}
+
+.panelContainer{
+	display:inline-block;
 }
 
 /*
@@ -63,7 +74,6 @@ section article{
 }*/
 
 .controls {
-    float: left;
     width: 100px;
     background-color: rgba(255,255,255,0.3);
     border-radius: 2px;
