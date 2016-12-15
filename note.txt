@@ -1,0 +1,8 @@
+Network diagram
+  - Built a prototype application to show a capability of drawing eletrical diagram and showing real-time data using SignalR.
+  - I used JsPlumb JavaScript library and JavaScript.
+  
+One Line Diagram
+  - Show a hierarchical relationship in electrical transmission system.
+  - D3 and JavaScript
+  
