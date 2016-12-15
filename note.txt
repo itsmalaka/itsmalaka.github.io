@@ -6,3 +6,8 @@ One Line Diagram
   - Show a hierarchical relationship in electrical transmission system.
   - D3 and JavaScript
   
+
+About me
+- Are you willing to relocate?
+YES!
+- 
