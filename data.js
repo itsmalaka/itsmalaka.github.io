@@ -3,13 +3,9 @@ var portfolio =
   "webGeo": [
     {
       "name": "webGeo_1",
-      "url": "asset/geo prototype - overview_0000001.gif",
-      "description": "webGeo application plots devices on actual geographic location organized in device hierarchy. There is a search box on the left to allow find device. Legend panel on the bottom right corner tells us about icon definition and color code of each device."
-    },
-    {
-      "name": "webGeo_2",
-      "url": "asset/geo prototype - overview_0000002.gif",
-      "description": "webGeo application plots devices on actual geographic location organized in device hierarchy. There is a search box on the left to allow find device. Legend panel on the bottom right corner tells us about icon definition and color code of each device."
+      "url": "asset/geo prototype - overview_compressed.gif",
+      // "description": "webGeo application plots devices on actual geographic location organized in device hierarchy. There is a search box on the left to allow find device. Legend panel on the bottom right corner tells us about icon definition and color code of each device."
+      "description" : "webGeo application"
     },
     {
       "name": "webGeo_2",
@@ -18,17 +14,17 @@ var portfolio =
     },
     {
       "name": "webGeo_3",
-      "url": "asset/2016-01-15_22-16-49_00001.gif",
+      "url": "asset/2016-01-15_22-16-49_00001_smaller_compressed.gif",
       "description": "Network diagram is one of the features we have integrated in the application to show relationship diagram of each devices. We use different color code for each line to represent eletrical phase and type of relationship."
     },
     {
       "name": "webGeo_4",
-      "url": "asset/geo product with SignalR_00001.gif",
+      "url": "asset/geo product with SignalR_00001_smaller_compressed.gif",
       "description": "Show SignalR capabilities"
     },
     {
       "name": "webGeo_3",
-      "url": "asset/geo prototype - loading points.gif",
+      "url": "asset/geo prototype - loading points_compressed.gif",
       "description": "geo product with SignalR"
     },
     {
