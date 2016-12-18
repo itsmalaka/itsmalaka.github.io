@@ -54,6 +54,8 @@ var i=0;
 var firstLoad = true;
 
 $(document).ready(function(){
+  // default
+  $(".loading-animation").hide();
    loadScreenshot(i);
 
    $(".next").click(function(){
