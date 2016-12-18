@@ -86,6 +86,26 @@ section article{
     height: 23px;
 }
 
+.post-category.pink{
+	background-color: #b66a6a;
+}
+
+.post-category.green{
+	background-color: #	#124d3f;
+}
+
+.post-category.purple{
+	background-color: #5b253c;
+}
+
+.post-category.yellow{
+	background-color: #f5b049;
+}
+
+.post-category.blue{
+	background-color: #0362a2;
+}
+
 /********************
 *   Mobile Styles   *
 ********************/

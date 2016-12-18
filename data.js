@@ -26,11 +26,6 @@ var portfolio =
       "name": "webGeo_3",
       "url": "asset/geo prototype - loading points_compressed.gif",
       "description": ""
-    },
-    {
-      "name": "webGeo_5",
-      "url": "asset/Loading points of FR.gif",
-      "description": "geo product with SignalR"
     }
   ],
   "networkDiagram": [
@@ -82,19 +77,19 @@ function loadScreenshot(i){
     showLoadingGif();
   }
 
-  $(".screenshot-image").attr("src", portfolio.webGeo[i].url);
-  $(".screenshot-image").on('load', function(){
+  $("#webgeo-screenshot").attr("src", portfolio.webGeo[i].url);
+  $("#webgeo-screenshot").on('load', function(){
       $(".loading-animation").hide();
-      $(".screenshot-image").css("opacity", 1);
+      $("#webgeo-screenshot").css("opacity", 1);
   });
 
-  //$(".screenshot-image").attr("src", portfolio.webGeo[i].url);
+  //$("#webgeo-screenshot").attr("src", portfolio.webGeo[i].url);
   $(".screenshot-description").text(portfolio.webGeo[i].description);
   $("#screenshot-index-start").text(i + 1);
   $("#screenshot-index-end").text(portfolio.webGeo.length);
 }
 
 function showLoadingGif(){
-    $(".screenshot-image").css("opacity", 0.2);
+    $("#webgeo-screenshot").css("opacity", 0.2);
     $(".loading-animation").show();
 }
