@@ -77,14 +77,13 @@ function loadScreenshot(i){
   $(".screenshot-image").attr("src", portfolio.webGeo[i].url);
   $(".screenshot-image").on('load', function(){
       $(".loading-animation").hide();
+      $(".screenshot-image").css("opacity", 1);
   });
 
   //$(".screenshot-image").attr("src", portfolio.webGeo[i].url);
   $(".screenshot-description").text(portfolio.webGeo[i].description);
   $("#screenshot-index-start").text(i + 1);
   $("#screenshot-index-end").text(portfolio.webGeo.length);
-
-  $(".screenshot-image").css("opacity", 1);
 }
 
 function showLoadingGif(){
