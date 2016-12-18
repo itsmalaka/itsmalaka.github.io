@@ -51,7 +51,6 @@ section article{
 
 .screenshot-description{
 	  position: relative;
-		height: 55px;
 		width: 100%;
 		background-color: rgba(61, 79, 93, 0.2);
 		float: left;
@@ -60,6 +59,11 @@ section article{
 
 .panelContainer{
 	display:inline-block;
+}
+
+.loading-animation{
+	position: absolute;
+	padding: 145px 272px;
 }
 
 /*

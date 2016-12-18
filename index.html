@@ -4,10 +4,10 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <title>my portfolio</title>
     <link rel="stylesheet" type="text/css" href="lib/jquery-ui-1.11.3/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="lib/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" charset="UTF-8" src="lib/jquery-ui-1.11.3/external/jquery/jquery.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="lib/index.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="lib/data.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="index.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="data.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="lib/pure-min.css">
     <link rel="stylesheet" href="lib/blog.css">
@@ -37,10 +37,10 @@
           <nav class="nav">
               <ul class="nav-list">
                   <li class="nav-item">
-                      <a class="pure-button" href="http://www.linkedin.com">LinkedIn</a>
+                      <a class="pure-button" href="https://www.linkedin.com/in/malakakhlok">LinkedIn</a>
                   </li>
                   <li class="nav-item">
-                      <a class="pure-button" href="http://yuilibrary.com">Hire Me</a>
+                      <a class="pure-button contact-button" href="#Contact">Contact</a>
                   </li>
               </ul>
           </nav>
@@ -69,13 +69,15 @@
                     <br/>
                     <article class="panelContainer">
                        <div class="screenshot" id="screenshot1">
-                           <img class="screenshot-image" src="a" />
+
+                            <img class="loading-animation" src="asset/infinity.gif" />
+                           <img class="screenshot-image" src="" />
                            <div class="screenshot-description">
                                <p>is a product of data visualization. is a product of dataduct of data visualizationis a product of data visualization</p>
                            </div>
                        </div>
                        <div class="controls">
-                         <a href="javascript:prev()" class="prev">◀</a> &nbsp; <span id="screenshot-index-start">1</span> / <span id="screenshot-index-end">6</span> &nbsp; <a href="javascript:next()" class="next">▶</a>
+                         <a href="#" class="prev">◀</a> &nbsp; <span id="screenshot-index-start">1</span> / <span id="screenshot-index-end">6</span> &nbsp; <a href="#" class="next">▶</a>
                        </div>
                    </article>
                   </div>
@@ -103,24 +105,27 @@
                   </div>
               </section>
 
-              <section class="post">
+              <section class="post contactSection">
                   <header class="post-header">
-                      <img width="48" height="48" alt="Reid Burke&#x27;s avatar" class="post-avatar" src="img/common/reid-avatar.png">
+                      <img width="48" height="48" alt="Andrew Wooldridge&#x27;s avatar" class="post-avatar" src="img/common/andrew-avatar.png">
 
-                      <h2 class="post-title">Photos from CSSConf and JSConf</h2>
+                      <h2 class="post-title">Contact Me</h2>
 
-                      <p class="post-meta">
-                          By <a class="post-author" href="#">Reid Burke</a> under <a class="post-category" href="#">Uncategorized</a>
-                      </p>
                   </header>
+
+                  <div class="post-description">
+                      <h3>Email: khlokmalaka[@]gmail.com</h3>
+                      <h3>Tel: 952 649 2545</h3>
+                      </h3>
+                  </div>
 
                   <div class="post-description">
                       <div class="post-images pure-g">
                           <div class="pure-u-1 pure-u-md-1-2">
-                              <a href="http://www.flickr.com/photos/uberlife/8915936174/">
-                                  <img alt="Photo of someone working poolside at a resort"
+                              <a href="asset/20161126_135358.jpg">
+                                  <img alt="Photo of trees at a park in Eden Prairie"
                                        class="pure-img-responsive"
-                                       src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
+                                       src="asset/20161126_135358.jpg">
                               </a>
 
                               <div class="post-image-meta">
@@ -140,24 +145,6 @@
                               </div>
                           </div>
                       </div>
-                  </div>
-              </section>
-
-              <section class="post">
-                  <header class="post-header">
-                      <img width="48" height="48" alt="Andrew Wooldridge&#x27;s avatar" class="post-avatar" src="img/common/andrew-avatar.png">
-
-                      <h2 class="post-title">YUI 3.10.2 Released</h2>
-
-                      <p class="post-meta">
-                          By <a class="post-author" href="#">Andrew Wooldridge</a> under <a class="post-category post-category-yui" href="#">YUI</a>
-                      </p>
-                  </header>
-
-                  <div class="post-description">
-                      <p>
-                          We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.
-                      </p>
                   </div>
               </section>
           </div>
