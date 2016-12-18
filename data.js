@@ -3,7 +3,7 @@ var portfolio =
   "webGeo": [
     {
       "name": "webGeo_1",
-      "url": "asset/geo prototype - overview.gif",
+      "url": "asset/geo prototype - overview_0000001.gif",
       "description": "webGeo application plots devices on actual geographic location organized in device hierarchy. There is a search box on the left to allow find device. Legend panel on the bottom right corner tells us about icon definition and color code of each device."
     },
     {
