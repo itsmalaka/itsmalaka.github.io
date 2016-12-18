@@ -75,7 +75,7 @@ $(document).ready(function(){
 });
 
 function loadScreenshot(i){
-  if (firstLoad == true)
+  if (firstLoad == false)
   {
     showLoadingGif();
   }
