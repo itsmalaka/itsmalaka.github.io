@@ -8,17 +8,22 @@ var portfolio =
     },
     {
       "name": "webGeo_2",
+      "url": "asset/geo prototype - overview_0000002.gif",
+      "description": "webGeo application plots devices on actual geographic location organized in device hierarchy. There is a search box on the left to allow find device. Legend panel on the bottom right corner tells us about icon definition and color code of each device."
+    },
+    {
+      "name": "webGeo_2",
       "url": "asset/Loading points.gif",
       "description": "The application organizes data points based on the hierarchy from GIS file. In this demo, there is a list of electrical substations, and each substation comprises of thousands of meters."
     },
     {
       "name": "webGeo_3",
-      "url": "asset/2016-01-15_22-16-49.gif",
+      "url": "asset/2016-01-15_22-16-49_00001.gif",
       "description": "Network diagram is one of the features we have integrated in the application to show relationship diagram of each devices. We use different color code for each line to represent eletrical phase and type of relationship."
     },
     {
       "name": "webGeo_4",
-      "url": "asset/geo product with SignalR.gif",
+      "url": "asset/geo product with SignalR_00001.gif",
       "description": "Show SignalR capabilities"
     },
     {
