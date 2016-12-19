@@ -21,12 +21,13 @@ var portfolio =
       "name": "webGeo_4",
       "url": "asset/geo product with SignalR_00001_smaller_compressed.gif",
       "description": "SignalR is used to push data from the server to client's web browser. Through this technology, we can broadcast real-time information for each device to multiple clients at the same time."
-    },
-    {
-      "name": "webGeo_3",
-      "url": "asset/geo prototype - loading points_compressed.gif",
-      "description": ""
     }
+    //,
+    // {
+    //   "name": "webGeo_3",
+    //   "url": "asset/geo prototype - loading points_compressed.gif",
+    //   "description": ""
+    // }
   ],
   "networkDiagram": [
     {
