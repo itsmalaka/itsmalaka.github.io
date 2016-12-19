@@ -55,6 +55,7 @@ section article{
 		background-color: rgba(61, 79, 93, 0.2);
 		float: left;
 		clear: both;
+		top: -8px;
 }
 
 .panelContainer{
