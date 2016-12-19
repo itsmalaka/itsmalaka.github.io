@@ -3,9 +3,9 @@ var portfolio =
   "webGeo": [
     {
       "name": "webGeo_1",
-      "url": "asset/geo prototype - overview_compressed.gif",
+      "url": "asset/geo prototype - overview_compressed2.gif",
       // "description": "webGeo application plots devices on actual geographic location organized in device hierarchy. There is a search box on the left to allow find device. Legend panel on the bottom right corner tells us about icon definition and color code of each device."
-      "description" : "webGeo application plots thousands of devices on geographical location. The application utilizes HERE maps platform, jQuery, C# and REST API technology. There is a search box on the left to provide a quick search accessibility to each devices. On the bottom right of the screen, there is a legend panel providing description and status of each icon. The legend panel contains three tabs of information corresponding to different view modes on the map."
+      "description" : "webGeo application plots thousands of devices on geographical location. The application utilizes HERE maps platform, jQuery, C# and REST API technology. There is a search box on the left to provide a quick search accessibility to each device. On the bottom right of the screen, there is a legend panel providing description and status of each icon. The legend panel contains three tabs of information corresponding to different view modes on the map."
     },
     {
       "name": "webGeo_2",
@@ -15,7 +15,7 @@ var portfolio =
     {
       "name": "webGeo_3",
       "url": "asset/2016-01-15_22-16-49_00001_smaller_compressed.gif",
-      "description": "Network diagram is one of the features we have integrated in the application to show relationship diagram of each devices. Different color code is used to represent eletrical phase and type of relationship. In this case, we use a solid line to represent an overhead transmission line while a dash line indicates an underground line."
+      "description": "Network diagram is one of the features we have integrated in the application to show relationship diagram of each device. Different color code is used to represent eletrical phase and type of relationship. In this case, we use a solid line to represent an overhead transmission line while a dash line indicates an underground line."
     },
     {
       "name": "webGeo_4",
