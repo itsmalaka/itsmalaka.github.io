@@ -84,7 +84,7 @@ function loadScreenshot(i){
   });
 
   //$("#webgeo-screenshot").attr("src", portfolio.webGeo[i].url);
-  $(".screenshot-description").text(portfolio.webGeo[i].description);
+  $("#webgeo-description").text(portfolio.webGeo[i].description);
   $("#screenshot-index-start").text(i + 1);
   $("#screenshot-index-end").text(portfolio.webGeo.length);
 }
