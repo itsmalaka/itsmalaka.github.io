@@ -6,3 +6,7 @@ There are 5 types of constructor:
   - static constructor
   - private constructor
   - copy constructor
+
+Array vs Collection
+Array needs to specify the size of an array and can only store the same data type.
+Collection can have dynamic collection size and can store different data types.
