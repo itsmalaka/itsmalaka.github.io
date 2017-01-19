@@ -1,0 +1,8 @@
+Constructor is a special method that gets called when an object is instantiated from a class. 
+
+There are 5 types of constructor:
+  - default constructor
+  - parameterized constructor
+  - static constructor
+  - private constructor
+  - copy constructor
