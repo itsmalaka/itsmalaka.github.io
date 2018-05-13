@@ -230,17 +230,6 @@
     keys.forEach(function(key) {
       app.getForecast(key);
     });
-
-    var cardLastUpdatedElem = card.querySelector('.card-last-updated');
-    var cardLastUpdated = cardLastUpdatedElem.textContent;
-    if (cardLastUpdated) {
-      cardLastUpdated = new Date(cardLastUpdated);
-      // Bail if the card has more recent data then the data
-      if (dataLastUpdated.getTime() < cardLastUpdated.getTime()) {
-        return;
-      }
-    }
-
   };
 
   // DONE add saveSelectedCities function here
