@@ -2,23 +2,23 @@ var cacheName = 'weatherPWA-step-6-1';
 var dataCacheName = 'weatherData-v1';
 
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/scripts/app.js',
-  '/styles/inline.css',
-  '/images/clear.png',
-  '/images/cloudy-scattered-showers.png',
-  '/images/cloudy.png',
-  '/images/fog.png',
-  '/images/ic_add_white_24px.svg',
-  '/images/ic_refresh_white_24px.svg',
-  '/images/partly-cloudy.png',
-  '/images/rain.png',
-  '/images/scattered-showers.png',
-  '/images/sleet.png',
-  '/images/snow.png',
-  '/images/thunderstorm.png',
-  '/images/wind.png'
+  '/work/',
+  '/work/index.html',
+  '/work/scripts/app.js',
+  '/work/styles/inline.css',
+  '/work/images/clear.png',
+  '/work/images/cloudy-scattered-showers.png',
+  '/work/images/cloudy.png',
+  '/work/images/fog.png',
+  '/work/images/ic_add_white_24px.svg',
+  '/work/images/ic_refresh_white_24px.svg',
+  '/work/images/partly-cloudy.png',
+  '/work/images/rain.png',
+  '/work/images/scattered-showers.png',
+  '/work/images/sleet.png',
+  '/work/images/snow.png',
+  '/work/images/thunderstorm.png',
+  '/work/images/wind.png'
 ];
 
 
